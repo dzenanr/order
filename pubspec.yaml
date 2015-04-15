@@ -13,4 +13,3 @@ transformers:
 - $dart2js:
     minify: true
     terse: true
-    commandLineOptions: [--enable-enum]

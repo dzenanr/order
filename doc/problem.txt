@@ -1,0 +1,37 @@
+#dart2js problem
+
+After using Pub Build - Minified on the pubspec.yaml of the [order](https://github.com/dzenanr/order) game,
+the board of the game does not appear in Chrome.
+
+The [boarding](https://github.com/dzenanr/boarding) package uses enums and mixins.
+
+pubspec.yaml:
+
+    name: order
+    version: 0.2.7
+    author: Dzenan Ridjanovic <dzenanr@gmail.com>
+    description: An example from boarding.
+    homepage: https://github.com/dzenanr/boarding
+    environment:
+      sdk: '>=1.0.0 <2.0.0'
+    documentation: http://goo.gl/kXlDOJ
+    dependencies:
+      boarding: any
+      browser: any
+    transformers:
+    - $dart2js:
+        minify: true
+        terse: true
+        commandLineOptions: [--enable-enum]
+
+    Loading source assets...
+    Building order...
+    [Info from Dart2JS]:
+    Compiling order|web/index.dart...
+    [Info from Dart2JS]:
+    Took 0:00:10.139580 to compile order|web/index.dart.
+    Built 7 files to "build".
+
+There are no errors in Dart Editor nor Chrome.
+
+

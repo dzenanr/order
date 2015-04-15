@@ -1,6 +1,6 @@
 part of order;
 
-class Board extends Object with Surface {
+class Board extends Surface {
   static const String order = 'order';
   static const String orderScore = 'orderScore';
   static const String orderBest = 'orderBest';
