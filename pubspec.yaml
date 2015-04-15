@@ -1,0 +1,16 @@
+name: order
+version: 0.2.7
+author: Dzenan Ridjanovic <dzenanr@gmail.com>
+description: An example from boarding.
+homepage: https://github.com/dzenanr/boarding
+environment:
+  sdk: '>=1.0.0 <2.0.0'
+documentation: http://goo.gl/kXlDOJ
+dependencies:
+  boarding: any
+  browser: any
+transformers:
+- $dart2js:
+    minify: true
+    terse: true
+    commandLineOptions: [--enable-enum]

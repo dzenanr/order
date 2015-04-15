@@ -1,0 +1,4 @@
+dart2js
+
+cd "C:\Users\ridjanod.FSA-RIDJANOD-2\Google Drive\learningdart\app\order"
+C:\Users\ridjanod.FSA-RIDJANOD-2\darteditor-windows-x64\dart\dart-sdk\bin\dart2js --minify web/index.dart
