@@ -34,4 +34,10 @@ pubspec.yaml:
 
 There are no errors in Dart Editor nor Chrome.
 
+Answer by Gunter Zochbauer:
+
+Add this line below the index.dart script tag in index.html
+
+<script src="packages/browser/dart.js"></script>
+
 
