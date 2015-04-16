@@ -1,5 +1,6 @@
 GitHub Pages
 
 https://pages.github.com/
+https://help.github.com/categories/github-pages-basics/
 http://dzenanr.github.io/order/
 
