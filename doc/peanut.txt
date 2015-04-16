@@ -6,6 +6,7 @@ http://www.dartdocs.org/documentation/peanut/0.0.1+1/index.html#peanut
 
 Windows
 Path Environment Variable
+
 C:\ProgramData\Oracle\Java\javapath;
 C:\Program Files (x86)\Intel\iCLS Client\;
 C:\Program Files\Intel\iCLS Client\;
@@ -32,20 +33,25 @@ C:\Users\ridjanod.FSA-RIDJANOD-2\darteditor-windows-x64\dart\dart-sdk\bin;
 C:\Users\ridjanod.FSA-RIDJANOD-2\AppData\Roaming\Pub\Cache\bin
 
 
-I have added the following 2 paths to the path environment variable on Windows:
+Add the following 2 paths to the path environment variable on Windows:
 
 C:\Users\ridjanod.FSA-RIDJANOD-2\AppData\Roaming\Pub\Cache\bin;
 C:\Users\ridjanod.FSA-RIDJANOD-2\darteditor-windows-x64\dart\dart-sdk\bin
 
-Then I have activated peanut:
+Activate peanut:
 
 cd C:\Users\ridjanod.FSA-RIDJANOD-2\dart\game\order
 cd C:\Users\ridjanod.FSA-RIDJANOD-2\dart\game\order>pub global activate peanut
 
-Finally I run peanut:
+Run peanut:
 
 C:\Users\ridjanod.FSA-RIDJANOD-2\dart\game\order>peanut
 
-Follow based on https://pub.dartlang.org/packages/peanut:
+Based on https://pub.dartlang.org/packages/peanut:
 
 git update-ref refs/heads/gh-pages origin/gh-pages
+
+Play the game at http://dzenanr.github.io/order/web/
+
+See also
+http://leereilly.net/2012/11/29/hosting-games-on-github.html
