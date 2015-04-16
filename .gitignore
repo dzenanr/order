@@ -1,0 +1,6 @@
+.DS_Store
+.pub
+packages
+!web/packages
+build
+*~
