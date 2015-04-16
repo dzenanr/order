@@ -1,6 +1,5 @@
 Peanut
 
-https://github.com/dzenanr/order/issues/1
 https://github.com/kevmoo/peanut.dart
 http://www.dartdocs.org/documentation/peanut/0.0.1+1/index.html#peanut
 
@@ -43,82 +42,10 @@ Then I have activated peanut:
 cd C:\Users\ridjanod.FSA-RIDJANOD-2\dart\game\order
 cd C:\Users\ridjanod.FSA-RIDJANOD-2\dart\game\order>pub global activate peanut
 
-However, when I run peanut,
+Finally I run peanut:
 
 C:\Users\ridjanod.FSA-RIDJANOD-2\dart\game\order>peanut
 
-I get the following error:
+Follow based on https://pub.dartlang.org/packages/peanut:
 
-Microsoft Windows [version 6.1.7601]
-Copyright (c) 2009 Microsoft Corporation. Tous droits réservés.
-
-C:\Users\ridjanod.FSA-RIDJANOD-2>cd C:\Users\ridjanod.FSA-RIDJANOD-2\dart\game\order
-
-C:\Users\ridjanod.FSA-RIDJANOD-2\dart\game\order>peanut
-Unhandled exception:
-Uncaught Error: ProcessException:
-Le fichier sp├®cifi├® est introuvable.
-The specified file cannot be found.
-
-Command: git rev-parse
-Stack Trace:
-#0 GitDir._isGitDir.<_isGitDir_async_body> (package:git/src/git_dir.dart)
-#1 _asyncCatchHelper. (dart:core-patch/core_patch.dart:1
-5)
-#2 _RootZone.runBinary (dart:async/zone.dart:1160)
-#3 _Future._propagateToListeners.handleError (dart:async/future_impl.dart:5
-11)
-#4 _Future._propagateToListeners (dart:async/future_impl.dart:570)
-#5 _Future._completeError (dart:async/future_impl.dart:366)
-#6 _Future._asyncCompleteError. (dart:async/future_impl.
-dart:421)
-#7 _asyncRunCallbackLoop (dart:async/schedule_microtask.dart:41)
-#8 _asyncRunCallback (dart:async/schedule_microtask.dart:48)
-#9 _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:96)
-#10 _Timer._runTimers (dart:isolate-patch/timer_impl.dart:392)
-#11 _handleMessage (dart:isolate-patch/timer_impl.dart:411)
-#12 _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dar
-t:142)
-
-#0 _rootHandleUncaughtError. (dart:async/zone.dart:886)
-#1 _asyncRunCallbackLoop (dart:async/schedule_microtask.dart:41)
-#2 _asyncRunCallback (dart:async/schedule_microtask.dart:48)
-#3 _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:96)
-#4 _Timer._runTimers (dart:isolate-patch/timer_impl.dart:392)
-#5 _handleMessage (dart:isolate-patch/timer_impl.dart:411)
-#6 _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dar
-t:142)
-Unhandled exception:
-Uncaught Error: ProcessException: Le fichier sp├®cifi├® est introuvable.
-
-Command: git rev-parse
-Stack Trace:
-#0 GitDir._isGitDir.<_isGitDir_async_body> (package:git/src/git_dir.dart)
-#1 _asyncCatchHelper. (dart:core-patch/core_patch.dart:1
-5)
-#2 _RootZone.runBinary (dart:async/zone.dart:1160)
-#3 _Future._propagateToListeners.handleError (dart:async/future_impl.dart:5
-11)
-#4 _Future._propagateToListeners (dart:async/future_impl.dart:570)
-#5 _Future._completeError (dart:async/future_impl.dart:366)
-#6 _Future._asyncCompleteError. (dart:async/future_impl.
-dart:421)
-#7 _asyncRunCallbackLoop (dart:async/schedule_microtask.dart:41)
-#8 _asyncRunCallback (dart:async/schedule_microtask.dart:48)
-#9 _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:96)
-#10 _Timer._runTimers (dart:isolate-patch/timer_impl.dart:392)
-#11 _handleMessage (dart:isolate-patch/timer_impl.dart:411)
-#12 _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dar
-t:142)
-
-#0 _rootHandleUncaughtError. (dart:async/zone.dart:886)
-#1 _asyncRunCallbackLoop (dart:async/schedule_microtask.dart:41)
-#2 _asyncRunCallback (dart:async/schedule_microtask.dart:48)
-#3 _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:96)
-#4 _Timer._runTimers (dart:isolate-patch/timer_impl.dart:392)
-#5 _handleMessage (dart:isolate-patch/timer_impl.dart:411)
-#6 _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dar
-t:142)
-
-
-
+git update-ref refs/heads/gh-pages origin/gh-pages
