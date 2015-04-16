@@ -40,26 +40,26 @@ C:\Users\ridjanod.FSA-RIDJANOD-2\darteditor-windows-x64\dart\dart-sdk\bin
 
 Then I have activated peanut:
 
-cd "C:\Users\ridjanod.FSA-RIDJANOD-2\Google Drive\learningdart\app\order"
-C:\Users\ridjanod.FSA-RIDJANOD-2\Google Drive\learningdart\app\order>pub global activate
+cd C:\Users\ridjanod.FSA-RIDJANOD-2\dart\game\order
+cd C:\Users\ridjanod.FSA-RIDJANOD-2\dart\game\order>pub global activate
 peanut
 
 However, when I run peanut,
 
-cd "C:\Users\ridjanod.FSA-RIDJANOD-2\Google Drive\learningdart\app\order"
-C:\Users\ridjanod.FSA-RIDJANOD-2\Google Drive\learningdart\app\order>peanut
+C:\Users\ridjanod.FSA-RIDJANOD-2\dart\game\order>peanut
 
 I get the following error:
 
 Microsoft Windows [version 6.1.7601]
 Copyright (c) 2009 Microsoft Corporation. Tous droits réservés.
 
-C:\Users\ridjanod.FSA-RIDJANOD-2>cd "C:\Users\ridjanod.FSA-RIDJANOD-2\Google Dri
-ve\learningdart\app\order"
+C:\Users\ridjanod.FSA-RIDJANOD-2>cd C:\Users\ridjanod.FSA-RIDJANOD-2\dart\game\order
 
-C:\Users\ridjanod.FSA-RIDJANOD-2\Google Drive\learningdart\app\order>peanut
+C:\Users\ridjanod.FSA-RIDJANOD-2\dart\game\order>peanut
 Unhandled exception:
-Uncaught Error: ProcessException: Le fichier sp├®cifi├® est introuvable.
+Uncaught Error: ProcessException:
+Le fichier sp├®cifi├® est introuvable.
+The specified file cannot be found.
 
 Command: git rev-parse
 Stack Trace:
@@ -121,5 +121,5 @@ t:142)
 #6 _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dar
 t:142)
 
-C:\Users\ridjanod.FSA-RIDJANOD-2\Google Drive\learningdart\app\order>
+
 
