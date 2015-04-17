@@ -4,3 +4,12 @@ https://pages.github.com/
 https://help.github.com/categories/github-pages-basics/
 http://dzenanr.github.io/order/
 
+
+
+git pull
+
+git checkout gh-pages
+
++ make changes, add, commit, push
+
+git checkout master

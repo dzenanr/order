@@ -1,5 +1,12 @@
 # CHANGELOG
 
-## 0.2.7
+*0.2.9* 2015-04-17
+
++ change in the bump method in model/grid/cell_piece.dart of boarding:
+  increases number (UP & RIGHT), decreases number (DOWN & LEFT);
+  before: increases number (DOWN & RIGHT), decreases number (UP & LEFT)
++ update the Board constructor: a tile may be unmarked
+
+### 0.2.8
 
 + created from the order example in boarding

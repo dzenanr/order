@@ -1,5 +1,5 @@
 name: order
-version: 0.2.7
+version: 0.2.9
 author: Dzenan Ridjanovic <dzenanr@gmail.com>
 description: An example from boarding.
 homepage: https://github.com/dzenanr/boarding
@@ -7,8 +7,9 @@ environment:
   sdk: '>=1.0.0 <2.0.0'
 documentation: http://goo.gl/kXlDOJ
 dependencies:
-  boarding: any
   browser: any
+  boarding:
+    git: https://github.com/dzenanr/boarding.git
 transformers:
 - $dart2js:
     minify: true
