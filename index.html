@@ -6,6 +6,7 @@
     <title>Order by dzenanr</title>
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <link rel="stylesheet" href="stylesheets/order.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="javascripts/main.js"></script>
     <!--[if lt IE 9]>
@@ -42,14 +43,17 @@
         <h1>
 <a id="order" class="anchor" href="#order" aria-hidden="true"><span class="octicon octicon-link"></span></a>Order</h1>
 
-<pre><code>  The goal of the game is to order numbers, starting with 0,
-  from left to right and from top to bottom.
-  When a tile is in its place, mark it by clicking on it.
-  Use the arrow keys to move tiles.
-  When a tile bumps into its neighbor,
-  the neighbor's number decreases (LEFT or UP)
-  or increases (RIGHT or DOWN).
-  Mark the last unmarked cell to see your score.
+<pre><code>  
+      The goal is to order consecutive numbers, starting with 0, <br/> 
+      from left to right and from top to bottom, with a <span class="marker">low score</span>.<br/>
+      When a number tile is ordered, mark the tile (tap or click). <br/>
+      You may demark a marked tile, but the <span class="marker">score increases</span>. <br/>     
+      With each move (swipe or arrow key), a new number tile <br/>
+      appears in a random cell and the <span class="marker">score increases</span>. <br/>
+      When a tile bumps into its neighbor, the tile disappears, <br/>
+      while the <span class="marker">neighbor's number increases (UP & RIGHT)</span> <br/>
+      or <span class="marker">decreases (DOWN & LEFT)</span>. <br/>
+      Mark the last cell to see your score, <span class="marker">the lower the better</span>.
 </code></pre>
 
 <p>Uses the <a href="https://pub.dartlang.org/search?q=boarding">boarding</a> package.</p>
