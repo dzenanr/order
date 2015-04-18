@@ -3,6 +3,7 @@
 *0.2.9* 2015-04-18
 
 + add 3 levels (grid sizes: 3 x 3, 4 x 4, 5 x 5) 
++ improve the game description in index.html
 
 *0.2.9* 2015-04-17
 
