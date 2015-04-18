@@ -1,5 +1,9 @@
 # CHANGELOG
 
+*0.2.9* 2015-04-18
+
++ add 3 levels (grid sizes: 3 x 3, 4 x 4, 5 x 5) 
+
 *0.2.9* 2015-04-17
 
 + change in the bump method in model/grid/cell_piece.dart of boarding:
