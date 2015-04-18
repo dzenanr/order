@@ -4,6 +4,8 @@
 
 + add 3 levels (grid sizes: 3 x 3, 4 x 4, 5 x 5) 
 + improve the game description in index.html
++ add css for links in index.css 
++ add a link to the source code at GitHub
 
 *0.2.9* 2015-04-17
 
