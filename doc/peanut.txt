@@ -55,3 +55,9 @@ Play the game at http://dzenanr.github.io/order/web/
 
 See also
 http://leereilly.net/2012/11/29/hosting-games-on-github.html
+
+Alertnative:
+
+git checkout gh-pages
+update the content of the web folder
+git checkout master
