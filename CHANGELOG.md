@@ -1,5 +1,10 @@
 # CHANGELOG
 
+*0.2.9* 2015-04-20
+
++ update the Board class in lib/view/board.dart:
+  make the select element remove the focus from itself by using the blur() method
+
 *0.2.9* 2015-04-18
 
 + add 3 levels (grid sizes: 3 x 3, 4 x 4, 5 x 5) 

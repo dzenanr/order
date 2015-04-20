@@ -38,6 +38,17 @@ the key events do not affect the select element. It works, but I do not understa
 Comment:
 
 The key events do affect the select element. It was not a correct answer.
+
+Answer
+
+Make the select element remove the focus from itself using the blur() method:
+
+levelSelect.onChange.listen((Event e) {
+  levelSelect.blur();
+  level = int.parse(levelSelect.value);
+});
+
+http://stackoverflow.com/questions/29723941/html-list-value-changes-by-key-events/29748679#29748679
  
     
 #dart2js problem
