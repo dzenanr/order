@@ -56,7 +56,7 @@ Play the game at http://dzenanr.github.io/order/web/
 See also
 http://leereilly.net/2012/11/29/hosting-games-on-github.html
 
-Alertnative:
+Alternative:
 
 Pub Build - Minified the project
 Save the web folder outside the project.
@@ -66,13 +66,15 @@ https://pages.github.com/
 git status
 git pull
 git checkout gh-pages
-add the web folder with packages from build
-remove build .pub, .packages, ...
-commit
-push
-add .gitignore
-commit
-push
+  add the web folder with packages from build
+  remove build .pub, .packages, ...
+  commit
+  push
+  add .gitignore
+  commit
+  push
 git checkout master
+
+
 
 
