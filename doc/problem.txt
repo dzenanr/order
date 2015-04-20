@@ -1,3 +1,45 @@
+#html list value changes by key events
+
+After starting the [Order](http://dzenanr.github.io/order/web/) game, change the game level from 1 to 2.
+Use the left arrow key, the current value of the list goes from 2 to 1.
+How can I avoid this change?
+
+Key arrows (key events) are used in the game to move tiles. A select element (level) is used to change the size of the board. 
+When a user changes the level and clicks on the new button, the key events do not affect the level. 
+However, if a user changes the level (e.g., from 2 to 1) and then uses a key arrow (e.g., the left arrow key), 
+the level changes (from 2 to 1). I want to disable that change.
+
+I used unsuccessfully 
+
+    document.onKeyDown.listen((KeyboardEvent event) {
+      levelSelect.disabled = true;
+      ...
+      levelSelect.disabled = false;
+    });
+
+in the Board class in the lib/view/board.dart file.
+
+[Source code](https://github.com/dzenanr/order)
+
+Answer:
+
+When I use
+
+    querySelector('#canvas').onMouseDown.listen((MouseEvent e) {
+      levelSelect.disabled = true;
+      ...
+      levelSelect.disabled = false;
+    });
+ 
+in the Board class in the lib/view/board.dart file,
+   
+the key events do not affect the select element. It works, but I do not understand this behavior. 
+
+Comment:
+
+The key events do affect the select element. It was not a correct answer.
+ 
+    
 #dart2js problem
 
 After using Pub Build - Minified on the pubspec.yaml of the [order](https://github.com/dzenanr/order) game,

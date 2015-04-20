@@ -41,7 +41,7 @@ C:\Users\ridjanod.FSA-RIDJANOD-2\darteditor-windows-x64\dart\dart-sdk\bin
 Activate peanut:
 
 cd C:\Users\ridjanod.FSA-RIDJANOD-2\dart\game\order
-cd C:\Users\ridjanod.FSA-RIDJANOD-2\dart\game\order>pub global activate peanut
+C:\Users\ridjanod.FSA-RIDJANOD-2\dart\game\order>pub global activate peanut
 
 Run peanut:
 
@@ -58,6 +58,21 @@ http://leereilly.net/2012/11/29/hosting-games-on-github.html
 
 Alertnative:
 
+Pub Build - Minified the project
+Save the web folder outside the project.
+
+https://pages.github.com/
+
+git status
+git pull
 git checkout gh-pages
-update the content of the web folder
+add the web folder with packages from build
+remove build .pub, .packages, ...
+commit
+push
+add .gitignore
+commit
+push
 git checkout master
+
+
