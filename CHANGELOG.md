@@ -1,5 +1,10 @@
 # CHANGELOG
 
+*0.2.9* 2015-04-21
+
++ remove isGameOver property (inherited from Surface) from the Board class in lib/view/board.dart
++ remove the draw method  (inherited from Surface) from the Board class in lib/view/board.dart
+
 *0.2.9* 2015-04-20
 
 + update the Board class in lib/view/board.dart:
