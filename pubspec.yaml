@@ -8,8 +8,7 @@ environment:
 documentation: http://goo.gl/kXlDOJ
 dependencies:
   browser: any
-  boarding:
-    git: https://github.com/dzenanr/boarding.git
+  boarding: any
 transformers:
 - $dart2js:
     minify: true
