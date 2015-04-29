@@ -1,5 +1,9 @@
 # CHANGELOG
 
+*0.3.1* 2015-04-29 
+
++ update pubspec to depend on boarding at Pub
+
 *0.2.9* 2015-04-21
 
 + remove isGameOver property (inherited from Surface) from the Board class in lib/view/board.dart
