@@ -1,6 +1,6 @@
 import 'dart:html';
 import 'package:order/order.dart';
 
-main() {
+void main() {
   new Board(querySelector('#canvas'));
 }
